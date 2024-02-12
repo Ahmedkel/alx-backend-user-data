@@ -24,6 +24,6 @@ class Auth:
         """ Method to get authorization header. """
         return None
 
-    def current_user(self, request=None) -> TypeVar('User'): # type: ignore
+    def current_user(self, request=None) -> TypeVar('User'):
         """ Method to get user from request. """
         return None
